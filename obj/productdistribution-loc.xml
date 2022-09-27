@@ -70,9 +70,21 @@
       <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/gatekeeperservice.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 3" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/stats_fooddistribution.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/stats_fooddistribution.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 96" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/stats_fooddistribution.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/productdistributionmain.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
