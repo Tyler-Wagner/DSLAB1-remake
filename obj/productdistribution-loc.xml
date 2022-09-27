@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/circularque.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/circularque.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/distribution_service-ads.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/distribution_service-ads.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 68" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/distribution_service-ads.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/food_datatstructures.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/food_datatstructures.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/food_datatstructures.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/distribution_service.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/distribution_service.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/food_salesservice.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/food_salesservice.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 29" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/food_salesservice.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/gatekeeperservice.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/gatekeeperservice.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 79" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/gatekeeperservice.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 34" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/gatekeeperservice.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 3" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/productdistribution.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1/src/stats_fooddistribution.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
