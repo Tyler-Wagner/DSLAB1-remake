@@ -1,0 +1,83 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=core2
+A -mmacosx-version-min=10.17.0
+A -fPIC
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U circularque%b		circularque.adb		b55360ba NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+
+U circularque%s		circularque.ads		aaa67b03 BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-tiinau.ads		20190518041255 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20190518041254 390edddb ada.text_io.integer_io%s
+D a-tiinio.adb		20190518041255 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D circularque.ads	20220927013700 0452ae6e circularque%s
+D circularque.adb	20220927013658 b101ced4 circularque%b
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041255 085b6ffb system%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [circularque standard 7 10 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r23 12|3r26
+X 6 a-textio.ads
+57K13*Text_IO 727e16 11|1w10 1r27 12|3r30
+264U14*New_Line 12|19s61 30s63
+465U14*Put 12|19s11 30s10
+X 8 a-tiinio.ads
+46k21*Integer_IO 108e27 12|3r38
+X 11 circularque.ads
+4+10 message 9r36 11r39 12|9r29 12r36 23r39
+5i5 capacity{natural} 12|6r43 8r31 10r28 15r33 26r36
+7k10*CircularQue 4z10 5z5 18l6 18e17 12|1b14 52l5 52t16
+9U14*acceptMessage 9>28 12|12b14 21l8 21t21
+9*28 msg{4+10} 12|12b28 16r25
+11U14*retrieveMessage 11<30 12|23b14 32l8 32t23
+11*30 msg{4+10} 12|23b30 27m11
+13V13*circularQueEmpty{boolean} 12|34b13 41l8 41t24
+15V13*circularQueFull{boolean} 12|43b13 50l8 50t23
+X 12 circularque.adb
+3K13 IntIO[8|46] 4r9
+6I12 slotindex{natural} 7r17 9r15
+7i4 front{6I12} 26m11 26r21 27r22
+7i11 rear{6I12} 15m10 15r19 16r15
+8i4 mesnum{natural} 14r11 17m10 17r20 25r10 28m11 28r21 36r10 45r10
+9a4 box(11|4+10) 16m10 27r18
+10i4 maxMessages{natural} 14r20 45r19
+
