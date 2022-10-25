@@ -43,7 +43,7 @@ D a-tienio.ads		20210520051130 2e79c9bf ada.text_io.enumeration_io%s
 D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D food_datastructures.ads  20221025031702 bd9805c1 food_datastructures%s
+D food_datastructures.ads  20221025045100 bd9805c1 food_datastructures%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D stats_fooddistribution.ads  20220927144238 5bb684b5 stats_fooddistribution%s
@@ -85,7 +85,7 @@ X 8 a-nuflra.ads
 X 14 a-textio.ads
 58K13*Text_IO 725e16 22|1w37 2r37
 X 19 food_datastructures.ads
-5K9*Food_DataStructures 39e25 22|4w6 4r31
+5K9*Food_DataStructures 40e25 22|4w6 4r31
 X 22 stats_fooddistribution.ads
 6K9*Stats_FoodDistribution 21l6 21e28 23|1b14 95l6 95t28
 10r4*my_Generator{8|47R9} 23|10r27 29r27 43r16

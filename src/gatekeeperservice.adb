@@ -42,19 +42,19 @@ package body GateKeeperService is
          --
          
          select
-            -- new arrivals of food
-            accept acceptMessage( newFood: in Food_Pack) do
-               if not( CircularQueFull ) then
-                  if (newFood: in GrainVegetable) then
+          
+            
+            accept insertFront (newFood: in Food_Pack ) do
+               if not (circularQueFull) then 
+                  if getFood_PackFoodType(newFood) in GrainVegetable then
                      CircularQueue.acceptMessage( newFood);
-                     put("GateKeeper insert accepted ");
+                     put("GateKeeper insert accepted at Rear ");
                      PrintFood_Pack( newFood ); new_line;
                   else
-                     CircularQueue.insertFront( newFood );
-                     put("GateKeeper insert accepted ");
+                     CircularQueue.insertFront( newFood);
+                     put("GateKeeper insert accepted in Front ");
                      PrintFood_Pack( newFood ); new_line;
                   end if;
-                  
                else
                   rejected := rejected + 1;
                   put(" Rejected by GateKeeper: "); new_line;
@@ -62,7 +62,8 @@ package body GateKeeperService is
                   put(" Rejected = "); put(rejected);
                   put(". Sent to another distribution facility!"); new_line(3);
                end if;
-            end acceptMessage;
+            end insertFront;
+            
          or
             -- Accept request for distribution from sales
             accept retrieveMessage( newFood: out Food_Pack; availableForShipment: out Boolean) do

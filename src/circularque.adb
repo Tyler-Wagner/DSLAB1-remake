@@ -36,6 +36,7 @@ package body CircularQue is
          box(front) := msg;
          mesnum := (mesnum + 1);
          new_line;
+      end if;
 
    end insertFront;
 -- end new stuff

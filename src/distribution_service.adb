@@ -44,7 +44,7 @@ package body Distribution_Service is
          -- state by the OS.  We will not be eligible for execution again until "Insert" exits
          -- the rendezvous.  
 
-         GateKeeper.acceptMessage( newFood );
+         GateKeeper.insertFront( newFood );
 
          -- Schedule arrival of next star ship exponentially distributed over 1.534 seconds (hours).
          -- Time in Ada is of type "duration" defined in package Calendar.

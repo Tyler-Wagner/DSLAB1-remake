@@ -9,6 +9,7 @@ package Food_DataStructures is
    type Food_Type is (Wheat, Corn, Rice, Potatoes, Squash, Tomato, Steak, Pork, Fish, Fowel);
    subtype GrainVegetable is Food_Type range Wheat .. Tomato;
 
+
    package Food_TypeIO is new Ada.Text_IO.Enumeration_IO(Food_Type);
    use Food_TypeIO;
 

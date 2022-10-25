@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#648c47aa#;
+   u00001 : constant Version_32 := 16#480d7db8#;
    pragma Export (C, u00001, "productdistributionmainB");
    u00002 : constant Version_32 := 16#2e11c0b1#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -284,7 +284,7 @@ package ada_main is
    pragma Export (C, u00121, "ada__text_io__generic_auxB");
    u00122 : constant Version_32 := 16#48b7189e#;
    pragma Export (C, u00122, "ada__text_io__generic_auxS");
-   u00123 : constant Version_32 := 16#375e0291#;
+   u00123 : constant Version_32 := 16#193796b1#;
    pragma Export (C, u00123, "distribution_serviceB");
    u00124 : constant Version_32 := 16#02d41a64#;
    pragma Export (C, u00124, "distribution_serviceS");
@@ -406,11 +406,11 @@ package ada_main is
    pragma Export (C, u00182, "ada__text_io__enumeration_auxS");
    u00183 : constant Version_32 := 16#071824fe#;
    pragma Export (C, u00183, "system__val_enum_8S");
-   u00184 : constant Version_32 := 16#eaacad92#;
+   u00184 : constant Version_32 := 16#6c8db567#;
    pragma Export (C, u00184, "gatekeeperserviceB");
-   u00185 : constant Version_32 := 16#4602c9ce#;
+   u00185 : constant Version_32 := 16#6a83f3dc#;
    pragma Export (C, u00185, "gatekeeperserviceS");
-   u00186 : constant Version_32 := 16#b0320471#;
+   u00186 : constant Version_32 := 16#bd344f56#;
    pragma Export (C, u00186, "circularqueB");
    u00187 : constant Version_32 := 16#f880ad23#;
    pragma Export (C, u00187, "circularqueS");
@@ -522,7 +522,7 @@ package ada_main is
    pragma Export (C, u00240, "stats_fooddistributionB");
    u00241 : constant Version_32 := 16#1f4d3167#;
    pragma Export (C, u00241, "stats_fooddistributionS");
-   u00242 : constant Version_32 := 16#6a1b1491#;
+   u00242 : constant Version_32 := 16#469a2e83#;
    pragma Export (C, u00242, "food_salesserviceB");
    u00243 : constant Version_32 := 16#0918658f#;
    pragma Export (C, u00243, "food_salesserviceS");

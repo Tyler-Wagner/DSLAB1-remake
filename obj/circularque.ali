@@ -14,7 +14,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U circularque%b		circularque.adb		b0320471 NE OO PK GE
+U circularque%b		circularque.adb		bd344f56 NE OO PK GE
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -56,7 +56,7 @@ D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-tiinio.adb		20210520051130 b79731f4 ada.text_io.integer_io%b
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D circularque.ads	20221025031702 5674784e circularque%s
-D circularque.adb	20221025031702 e6467c3f circularque%b
+D circularque.adb	20221025045426 eb403718 circularque%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D system.ads		20210520051136 2ffa5114 system%s
@@ -101,29 +101,29 @@ X 1 ada.ads
 16K9*Ada 20e8 16|1r6 1r23 17|3r26
 X 9 a-textio.ads
 58K13*Text_IO 725e16 16|1w10 1r27 17|3r30
-262U14*New_Line 17|19s61 45s63
-463U14*Put 17|19s11 31s10 45s10
+262U14*New_Line 17|19s61 27s60 38s10 52s63
+463U14*Put 17|19s11 27s10 52s10
 X 13 a-tiinio.ads
 46k21*Integer_IO 108e27 17|3r38
 X 16 circularque.ads
-4+10 message 9r36 13r39 21r34 17|9r29 12r36 24r34 38r39
-5i5 capacity{natural} 17|6r43 8r31 10r28 15r33 27r35 41r36
-7k10*CircularQue 4z10 5z5 23l6 23e17 17|1b14 67l5 67t16
+4+10 message 9r36 13r39 21r34 17|9r29 12r36 24r34 45r39
+5i5 capacity{natural} 17|6r43 8r31 10r28 15r33 48r36
+7k10*CircularQue 4z10 5z5 23l6 23e17 17|1b14 74l5 74t16
 9U14*acceptMessage 9>28 17|12b14 21l8 21t21
 9*28 msg{4+10} 17|12b28 16r25
-13U14*retrieveMessage 13<30 17|38b14 47l8 47t23
-13*30 msg{4+10} 17|38b30 42m11
-15V13*circularQueEmpty{boolean} 17|49b13 56l8 56t24
-17V13*circularQueFull{boolean} 17|58b13 65l8 65t23
-21U14*insertFront 21>26 17|24b14 34l8 34t19
-21*26 msg{4+10} 17|24b26 28r25
+13U14*retrieveMessage 13<30 17|45b14 54l8 54t23
+13*30 msg{4+10} 17|45b30 49m11
+15V13*circularQueEmpty{boolean} 17|56b13 63l8 63t24
+17V13*circularQueFull{boolean} 17|65b13 72l8 72t23
+21U14*insertFront 21>26 17|24b14 41l8 41t19
+21*26 msg{4+10} 17|24b26 36r24
 X 17 circularque.adb
 3K13 IntIO[13|46] 4r9
 6I12 slotindex{natural} 7r17 9r15
-7i4 front{6I12} 27m10 27r20 28r15 41m11 41r21 42r22
-7i11 rear{6I12} 15m10 15r19 16r15
-8i4 mesnum{natural} 14r11 17m10 17r20 26r10 29m10 29r20 40r10 43m11 43r21
-. 51r10 60r10
-9a4 box(16|4+10) 16m10 28m10 42r18
-10i4 maxMessages{natural} 14r20 26r19 60r19
+7i4 front{6I12} 26r10 30r13 31m13 33m13 33r22 36r14 48m11 48r21 49r22
+7i11 rear{6I12} 15m10 15r19 16r15 26r18
+8i4 mesnum{natural} 14r11 17m10 17r20 37m10 37r21 47r10 50m11 50r21 58r10
+. 67r10
+9a4 box(16|4+10) 16m10 36m10 49r18
+10i4 maxMessages{natural} 14r20 31r22 67r19
 

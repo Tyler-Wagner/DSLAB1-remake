@@ -27,7 +27,7 @@ RV MAX_SELECT_ALTERNATIVES=2
 RV MAX_TASK_ENTRIES=2
 RV MAX_TASKS=1
 
-U gatekeeperservice%b	gatekeeperservice.adb	eaacad92 OO PK
+U gatekeeperservice%b	gatekeeperservice.adb	6c8db567 OO PK
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
@@ -38,7 +38,7 @@ Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
 Z ada.text_io.integer_aux%s
 Z ada.text_io.integer_io%s
 W circularque%s		circularque.adb		circularque.ali  ED
-Z food_datastructures%s	food_datastructures.adb	food_datastructures.ali  AD
+W food_datastructures%s	food_datastructures.adb	food_datastructures.ali  AD
 Z interfaces%s		interfac.ads		interfac.ali
 Z system%s		system.ads		system.ali
 Z system.img_biu%s	s-imgbiu.ads		s-imgbiu.ali
@@ -59,7 +59,7 @@ Z system.val_int%s	s-valint.ads		s-valint.ali
 Z system.val_lli%s	s-vallli.ads		s-vallli.ali
 Z system.val_llli%s	s-valllli.ads		s-valllli.ali
 
-U gatekeeperservice%s	gatekeeperservice.ads	4602c9ce EE OO PK
+U gatekeeperservice%s	gatekeeperservice.ads	6a83f3dc EE OO PK
 Z ada.real_time%s	a-reatim.adb		a-reatim.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W circularque%s		circularque.adb		circularque.ali
@@ -99,10 +99,10 @@ D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-tiinio.adb		20210520051130 b79731f4 ada.text_io.integer_io%b
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D circularque.ads	20221025031702 5674784e circularque%s
-D circularque.adb	20221025031702 e6467c3f circularque%b
-D food_datastructures.ads  20221025031702 bd9805c1 food_datastructures%s
-D gatekeeperservice.ads	20221025031826 f65830f4 gatekeeperservice%s
-D gatekeeperservice.adb	20221025032208 a339a765 gatekeeperservice%b
+D circularque.adb	20221025045426 eb403718 circularque%b
+D food_datastructures.ads  20221025045100 bd9805c1 food_datastructures%s
+D gatekeeperservice.ads	20221025045734 dad90ae6 gatekeeperservice%s
+D gatekeeperservice.adb	20221025050532 b4018043 gatekeeperservice%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
@@ -163,88 +163,95 @@ D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D s-win32.ads		20210520051136 15ac53fb system.win32%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c b b b [b gatekeeperservice 6 1 none]
+G c b b b [b gatekeeperservice 7 1 none]
 G c Z s b [gatekeeperTK gatekeeperservice 7 8 none]
-G c Z s b [acceptmessage gatekeeperservice__gatekeeper 9 13 none]
+G c Z s b [insertfront gatekeeperservice__gatekeeper 10 13 none]
 G c Z s b [retrievemessage gatekeeperservice__gatekeeper 13 13 none]
 G c Z s s [gatekeeperTKVIP gatekeeperservice 7 3 none]
-G c Z s s [P2sIP gatekeeperservice 9 7 none]
+G c Z s s [P2sIP gatekeeperservice 10 7 none]
 G c Z s s [P6sIP gatekeeperservice 13 7 none]
-G c Z b b [get gatekeeperservice__integerio 51 14 8_4]
-G c Z b b [get gatekeeperservice__integerio 59 14 8_4]
-G c Z b b [put gatekeeperservice__integerio 68 14 8_4]
-G c Z b b [put gatekeeperservice__integerio 80 14 8_4]
-G c Z b b [get gatekeeperservice__integerio 90 14 8_4]
-G c Z b b [put gatekeeperservice__integerio 97 14 8_4]
-G c Z b b [get gatekeeperservice__integerio__aux_int 52 14 48_4_8_4]
-G c Z b b [gets gatekeeperservice__integerio__aux_int 57 14 48_4_8_4]
-G c Z b b [put gatekeeperservice__integerio__aux_int 62 14 48_4_8_4]
-G c Z b b [puts gatekeeperservice__integerio__aux_int 68 14 48_4_8_4]
-G c Z b b [get gatekeeperservice__integerio__aux_lli 52 14 56_4_8_4]
-G c Z b b [gets gatekeeperservice__integerio__aux_lli 57 14 56_4_8_4]
-G c Z b b [put gatekeeperservice__integerio__aux_lli 62 14 56_4_8_4]
-G c Z b b [puts gatekeeperservice__integerio__aux_lli 68 14 56_4_8_4]
-G c Z b b [get gatekeeperservice__integerio__aux_llli 52 14 64_4_8_4]
-G c Z b b [gets gatekeeperservice__integerio__aux_llli 57 14 64_4_8_4]
-G c Z b b [put gatekeeperservice__integerio__aux_llli 62 14 64_4_8_4]
-G c Z b b [puts gatekeeperservice__integerio__aux_llli 68 14 64_4_8_4]
-G r s food_pack [b gatekeeperservice 6 1 none] [food_packIP food_datastructures 34 9 none]
-G r i none [b gatekeeperservice 6 1 none] [circularque standard 7 10 none]
-G r c none [b gatekeeperservice 6 1 none] [printfood_pack food_datastructures 17 14 none]
-G r s food_pack [acceptmessage gatekeeperservice__gatekeeper 9 13 none] [food_packIP food_datastructures 34 9 none]
-G r i none [acceptmessage gatekeeperservice__gatekeeper 9 13 none] [circularque standard 7 10 none]
-G r c none [acceptmessage gatekeeperservice__gatekeeper 9 13 none] [printfood_pack food_datastructures 17 14 none]
-G r s food_pack [retrievemessage gatekeeperservice__gatekeeper 13 13 none] [food_packIP food_datastructures 34 9 none]
+G c Z b b [get gatekeeperservice__integerio 51 14 9_4]
+G c Z b b [get gatekeeperservice__integerio 59 14 9_4]
+G c Z b b [put gatekeeperservice__integerio 68 14 9_4]
+G c Z b b [put gatekeeperservice__integerio 80 14 9_4]
+G c Z b b [get gatekeeperservice__integerio 90 14 9_4]
+G c Z b b [put gatekeeperservice__integerio 97 14 9_4]
+G c Z b b [get gatekeeperservice__integerio__aux_int 52 14 48_4_9_4]
+G c Z b b [gets gatekeeperservice__integerio__aux_int 57 14 48_4_9_4]
+G c Z b b [put gatekeeperservice__integerio__aux_int 62 14 48_4_9_4]
+G c Z b b [puts gatekeeperservice__integerio__aux_int 68 14 48_4_9_4]
+G c Z b b [get gatekeeperservice__integerio__aux_lli 52 14 56_4_9_4]
+G c Z b b [gets gatekeeperservice__integerio__aux_lli 57 14 56_4_9_4]
+G c Z b b [put gatekeeperservice__integerio__aux_lli 62 14 56_4_9_4]
+G c Z b b [puts gatekeeperservice__integerio__aux_lli 68 14 56_4_9_4]
+G c Z b b [get gatekeeperservice__integerio__aux_llli 52 14 64_4_9_4]
+G c Z b b [gets gatekeeperservice__integerio__aux_llli 57 14 64_4_9_4]
+G c Z b b [put gatekeeperservice__integerio__aux_llli 62 14 64_4_9_4]
+G c Z b b [puts gatekeeperservice__integerio__aux_llli 68 14 64_4_9_4]
+G r s food_pack [b gatekeeperservice 7 1 none] [food_packIP food_datastructures 35 9 none]
+G r i none [b gatekeeperservice 7 1 none] [circularque standard 7 10 none]
+G r c none [b gatekeeperservice 7 1 none] [getfood_packfoodtype food_datastructures 24 14 none]
+G r c none [b gatekeeperservice 7 1 none] [printfood_pack food_datastructures 18 14 none]
+G r s food_pack [insertfront gatekeeperservice__gatekeeper 10 13 none] [food_packIP food_datastructures 35 9 none]
+G r i none [insertfront gatekeeperservice__gatekeeper 10 13 none] [circularque standard 7 10 none]
+G r c none [insertfront gatekeeperservice__gatekeeper 10 13 none] [getfood_packfoodtype food_datastructures 24 14 none]
+G r c none [insertfront gatekeeperservice__gatekeeper 10 13 none] [printfood_pack food_datastructures 18 14 none]
+G r s food_pack [retrievemessage gatekeeperservice__gatekeeper 13 13 none] [food_packIP food_datastructures 35 9 none]
 G r i none [retrievemessage gatekeeperservice__gatekeeper 13 13 none] [circularque standard 7 10 none]
-G r c none [retrievemessage gatekeeperservice__gatekeeper 13 13 none] [printfood_pack food_datastructures 17 14 none]
-G r s food_pack [gatekeeperTK gatekeeperservice 7 8 none] [food_packIP food_datastructures 34 9 none]
+G r c none [retrievemessage gatekeeperservice__gatekeeper 13 13 none] [getfood_packfoodtype food_datastructures 24 14 none]
+G r c none [retrievemessage gatekeeperservice__gatekeeper 13 13 none] [printfood_pack food_datastructures 18 14 none]
+G r s food_pack [gatekeeperTK gatekeeperservice 7 8 none] [food_packIP food_datastructures 35 9 none]
 G r i none [gatekeeperTK gatekeeperservice 7 8 none] [circularque standard 7 10 none]
-G r c none [gatekeeperTK gatekeeperservice 7 8 none] [printfood_pack food_datastructures 17 14 none]
+G r c none [gatekeeperTK gatekeeperservice 7 8 none] [getfood_packfoodtype food_datastructures 24 14 none]
+G r c none [gatekeeperTK gatekeeperservice 7 8 none] [printfood_pack food_datastructures 18 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 31|1r6 1r24 2r6 2r25 8r29 18r19 19r19 24r21 28r30 79r7 79r43
+16K9*Ada 20e8 31|1r6 1r24 2r6 2r25 9r29 19r19 20r19 25r21 29r30 85r7 85r43
 X 2 a-calend.ads
-36K13*Calendar 413e17 31|2w10 2r29 18r23 19r23 24r25 28r34 79r47
-42I9*Time<226I9> 31|18r32 19r32
-56V13*Clock{42I9} 31|24s34 28s43 79s56
-103V14*"+"{42I9} 31|25s30
-112V14*"-"{duration} 31|79s62
-120V14*"<"{boolean} 31|28s49
+36K13*Calendar 413e17 31|2w10 2r29 19r23 20r23 25r25 29r34 85r47
+42I9*Time<226I9> 31|19r32 20r32
+56V13*Clock{42I9} 31|25s34 29s43 85s56
+103V14*"+"{42I9} 31|26s30
+112V14*"-"{duration} 31|85s62
+120V14*"<"{boolean} 31|29s49
 226I9 Time_Rep<long_long_integer>
 X 18 a-textio.ads
-58K13*Text_IO 725e16 31|1w10 1r28 8r33 79r11
-262U14*New_Line 31|49s46 52s53 53s46 55s68 65s90 78s7 79s78
-463U14*Put 31|48s19 52s19 54s19 55s19 65s45 78s21
-506U14*Put_Line 31|79s19
+58K13*Text_IO 725e16 31|1w10 1r28 9r33 85r11
+262U14*New_Line 31|52s49 56s49 60s53 61s46 63s68 74s90 84s7 85s78
+463U14*Put 31|51s22 55s22 60s19 62s19 63s19 74s45 84s21
+506U14*Put_Line 31|85s19
 X 24 a-tiinio.ads
-46k21*Integer_IO 108e27 31|8r41
-80U14 Put 31|54s40[8]
+46k21*Integer_IO 108e27 31|9r41
+80U14 Put 31|62s40[9]
 X 27 circularque.ads
-7k10*CircularQue 23e17 30|3w6 31|3w6 12r36
-9U14 acceptMessage 31|47s33[12]
-13U14 retrieveMessage 31|64s32[12]
-15V13 circularQueEmpty{boolean} 31|62s36[12]
-17V13 circularQueFull{boolean} 31|46s24[12]
+7k10*CircularQue 23e17 30|3w6 31|3w6 13r36
+9U14 acceptMessage 31|50s36[13]
+13U14 retrieveMessage 31|73s32[13]
+15V13 circularQueEmpty{boolean} 31|71s36[13]
+17V13 circularQueFull{boolean} 31|48s24[13]
+21U14 insertFront 31|54s36[13]
 X 29 food_datastructures.ads
-5K9*Food_DataStructures 39e25 30|1w6 1r32
-15R9*Food_Pack 37e14 30|9r40 13r43 31|12r49 45r47 60r50
-17U14*PrintFood_Pack 31|49s19 53s19 65s18
+5K9*Food_DataStructures 40e25 30|1w6 1r32 31|4w6 4r31
+10E12*GrainVegetable{9E9} 31|49r55
+16R9*Food_Pack 38e14 30|10r39 13r43 31|13r49 47r45 69r50
+18U14*PrintFood_Pack 31|52s22 56s22 61s19 74s18
+24V14*getFood_PackFoodType{9E9} 31|49s22
 X 30 gatekeeperservice.ads
-5K9*GateKeeperService 17l5 17e22 31|6b14 82l5 82t22
-7t8*GateKeeper 31|10b14 81l8 81t18
-9Y13 acceptMessage 9>28 31|45b20 57l17 57t30
-9r28 newFood{29|15R9} 31|47r48 49r35 53r35
-13Y13 retrieveMessage 13<30 13<54 31|60b20 67l17 67t32
-13r30 newFood{29|15R9} 31|64m49 64r49 65m34 65r34
-13b54 availableForShipment{boolean} 31|61m15 61r15 63m18 63r18
+5K9*GateKeeperService 17l5 17e22 31|7b14 88l5 88t22
+7t8*GateKeeper 31|11b14 87l8 87t18
+10Y13 insertFront 10>26 31|47b20 65l17 65t28
+10r26 newFood{29|16R9} 31|49r43 50r51 52r38 54r49 56r38 61r35
+13Y13 retrieveMessage 13<30 13<54 31|69b20 76l17 76t32
+13r30 newFood{29|16R9} 31|73m49 73r49 74m34 74r34
+13b54 availableForShipment{boolean} 31|70m15 70r15 72m18 72r18
 X 31 gatekeeperservice.adb
-8K12 IntegerIO[24|46] 8r67
-12K15 CircularQueue[27|7] 13r11 47r19 62r22 64r18
-15i7 rejected{integer} 28r13 51m19 51r31 54r44
-18i7 Start_Time{2|42I9} 24m7 25r19 79r64
-19i7 End_Time{2|42I9} 25m7 28r51
-45r35 newFood{29|15R9}
-60r37 newFood{29|15R9}
-60b61 availableForShipment{boolean}
+9K12 IntegerIO[24|46] 9r67
+13K15 CircularQueue[27|7] 14r11 50r22 54r22 71r22 73r18
+16i7 rejected{integer} 29r13 59m19 59r31 62r44
+19i7 Start_Time{2|42I9} 25m7 26r19 85r64
+20i7 End_Time{2|42I9} 26m7 29r51
+47r33 newFood{29|16R9}
+69r37 newFood{29|16R9}
+69b61 availableForShipment{boolean}
 X 32 interfac.ads
 55I9*Integer_64<long_long_integer>
 X 36 stats_fooddistribution.ads

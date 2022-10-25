@@ -16,7 +16,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 
-U distribution_service%b  distribution_service.adb  375e0291 OO PK
+U distribution_service%b  distribution_service.adb  193796b1 OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
@@ -68,9 +68,9 @@ D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D circularque.ads	20221025031702 5674784e circularque%s
 D distribution_service.ads  20220927144238 e4fa9b10 distribution_service%s
-D distribution_service.adb  20221025025006 cff3c9ca distribution_service%b
-D food_datastructures.ads  20221025031702 bd9805c1 food_datastructures%s
-D gatekeeperservice.ads	20221025031826 f65830f4 gatekeeperservice%s
+D distribution_service.adb  20221025045754 cd1b67f8 distribution_service%b
+D food_datastructures.ads  20221025045100 bd9805c1 food_datastructures%s
+D gatekeeperservice.ads	20221025045734 dad90ae6 gatekeeperservice%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
@@ -110,14 +110,14 @@ D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z s b [product_generator distribution_service 6 14 none]
 G c Z s s [product_generatorVIP distribution_service 6 4 none]
-G r c none [product_generator distribution_service 6 14 none] [randomfoodtype food_datastructures 31 13 none]
-G r c none [product_generator distribution_service 6 14 none] [setfood_packfoodtype food_datastructures 27 14 none]
-G r c none [product_generator distribution_service 6 14 none] [getfood_packfoodtype food_datastructures 23 14 none]
-G r c none [product_generator distribution_service 6 14 none] [setfood_packshipment food_datastructures 29 14 none]
+G r c none [product_generator distribution_service 6 14 none] [randomfoodtype food_datastructures 32 13 none]
+G r c none [product_generator distribution_service 6 14 none] [setfood_packfoodtype food_datastructures 28 14 none]
+G r c none [product_generator distribution_service 6 14 none] [getfood_packfoodtype food_datastructures 24 14 none]
+G r c none [product_generator distribution_service 6 14 none] [setfood_packshipment food_datastructures 30 14 none]
 G r c none [product_generator distribution_service 6 14 none] [preparegrainvegetablefood_packforsales stats_fooddistribution 17 13 none]
 G r c none [product_generator distribution_service 6 14 none] [preparemeatfood_packforsales stats_fooddistribution 19 13 none]
-G r c none [product_generator distribution_service 6 14 none] [printfood_packshipment food_datastructures 21 14 none]
-G r r none [product_generator distribution_service 6 14 none] [acceptmessage gatekeeperservice__gatekeeper 9 13 none]
+G r c none [product_generator distribution_service 6 14 none] [printfood_packshipment food_datastructures 22 14 none]
+G r r none [product_generator distribution_service 6 14 none] [insertfront gatekeeperservice__gatekeeper 10 13 none]
 G r c none [product_generator distribution_service 6 14 none] [next_exponential stats_fooddistribution 14 13 none]
 X 1 ada.ads
 16K9*Ada 20e8 25|4r6 4r23 5r6 5r33 5r46 5r65 6r6 6r33 6r46 6r65
@@ -142,22 +142,22 @@ X 24 distribution_service.ads
 X 25 distribution_service.adb
 13r9 RandFloatGenerator{11|47R9}
 14f9 randFloat{float}
-16r9 newFood{26|15R9} 25m32 25r32 26r34 27m35 27r35 29m35 29r35 32r35 38r34
-. 47r36
+16r9 newFood{26|16R9} 25m32 25r32 26r34 27m35 27r35 29m35 29r35 32r35 38r34
+. 47r34
 18f9 nextArrivalDelay{float} 52m10 54m10 54r30 55r51 60r35
 X 26 food_datastructures.ads
-5K9*Food_DataStructures 24|1w6 1r31 25|1w6 1r31 25r41 26|39e25
+5K9*Food_DataStructures 24|1w6 1r31 25|1w6 1r31 25r41 26|40e25
 10E12*GrainVegetable{9E9} 25|26r46 32r47
-15R9*Food_Pack 25|16r18 26|37e14
-21U14*PrintFood_PackShipment 25|38s10
-23V14*getFood_PackFoodType{9E9} 25|26s13 32s13
-27U14*setFood_PackFoodType 25|25s10
-29U14*setFood_PackShipment 25|27s13 29s13
-31V13*RandomFoodType{9E9} 25|25s61
+16R9*Food_Pack 25|16r18 26|38e14
+22U14*PrintFood_PackShipment 25|38s10
+24V14*getFood_PackFoodType{9E9} 25|26s13 32s13
+28U14*setFood_PackFoodType 25|25s10
+30U14*setFood_PackShipment 25|27s13 29s13
+32V13*RandomFoodType{9E9} 25|25s61
 X 27 gatekeeperservice.ads
 5K9*GateKeeperService 25|2w6 2r30 27|17e22
 7t8*GateKeeper 25|47r10
-9Y13 acceptMessage 25|47s21
+10Y13 insertFront 25|47s21
 X 32 stats_fooddistribution.ads
 6K9*Stats_FoodDistribution 24|2w6 2r34 32|21e28
 14V13*Next_Exponential{float} 25|52s30
