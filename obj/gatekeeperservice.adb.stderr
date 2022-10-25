@@ -1,0 +1,3 @@
+gatekeeperservice.adb:48:23: error: expected a boolean type
+gatekeeperservice.adb:48:23: error: found private type "Food_Pack" defined at food_datastructures.ads:15
+gatekeeperservice.adb:48:30: error: missing ")"

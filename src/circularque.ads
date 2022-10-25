@@ -8,6 +8,8 @@ generic
 
    procedure acceptMessage(msg: in message);
 
+
+
    procedure retrieveMessage(msg: out message);
 
    function circularQueEmpty return Boolean;
@@ -15,4 +17,7 @@ generic
    function circularQueFull return Boolean;
 
    --Add method (function or procedure) for inserting at front of queue here and in body.
+
+   procedure insertFront(msg: in message); -- this should allow something to be inserted in the front of the queue
+
  end CircularQue;

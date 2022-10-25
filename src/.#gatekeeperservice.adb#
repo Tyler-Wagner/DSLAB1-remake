@@ -45,7 +45,7 @@ package body GateKeeperService is
             -- new arrivals of food
             accept acceptMessage( newFood: in Food_Pack) do
                if not( CircularQueFull ) then
-                  if (newFood: in GrainVegetable) then
+                  if  then
                      CircularQueue.acceptMessage( newFood);
                      put("GateKeeper insert accepted ");
                      PrintFood_Pack( newFood ); new_line;

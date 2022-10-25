@@ -20,6 +20,27 @@ package body CircularQue is
        end if;
    end acceptMessage;
 
+-- begin new stuff
+   procedure insertFront(msg: in message) is
+   begin
+      if front = rear then
+         put("ERROR - Message rejected - queue is full!"); new_line(2);
+      else
+
+         if front = 0 then
+            front := maxMessages;
+         else
+            front := front - 1;
+         end if;
+
+         box(front) := msg;
+         mesnum := (mesnum + 1);
+         new_line;
+
+   end insertFront;
+-- end new stuff
+
+
    procedure retrieveMessage(msg: out message) is
    begin
       if mesnum > 0 then  -- remove message if buff not empty
